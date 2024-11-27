@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 39</title>
+    <style>
+        .div {
+            height: 450px;
+            width: 500px;
+            border: 5px solid yellow;
+            border-radius: 25px;
+            margin: 90px 0px 0px 520px;
+        }
+
+        @font-face {
+            font-family: myFont;
+            src: url(./fonts/Bethany\ Elingston.otf);
+        }
+
+        @font-face {
+            font-family: myFont2;
+            src: url(./fonts/OregonLdoBlack-PKlE.ttf);
+        }
+
+        h2 {
+            font-family: myFont;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        input {
+            font-size: 25px;
+            margin: 25px 0px 0px 80px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 12px;
+            margin: 40px 0px 0px 200px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            background-color: red;
+            border-radius: 10px; 
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 35px;
+            font-family: myFont2;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h2>ODD OR EVEN</h2><br>
+        <input type="number" name="num" placeholder="Enter the number" id="num"><br>
+        <button onclick="result()">Submit</button><br>
+        <h1 id="result"></h1> 
+    </div>
+
+    <script src="./task 39.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 33</title> 
+    <style>
+        .div {
+            height: 400px;
+            width: 500px;
+            border: 3px solid red;
+            border-radius: 25px;
+            margin: 50px auto;
+        }
+
+        @font-face {
+            font-family: myFont;
+            src: url(./fonts/deadman.ttf);
+        }
+
+        h1 {
+            position: relative;
+            font-family: myFont;
+            font-size: 40px;
+            font-weight: lighter;
+            top: 10px;
+            left: 185px;
+        }
+
+        input {
+            position: relative;
+            top: 40px;
+            left: 70px;
+            font-size: 27px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        button {
+            position: relative;
+            top: 90px;
+            left: 200px;
+            font-size: 23px;
+            padding: 10px;
+            color: white;
+            background-color: green;
+            border-radius: 10px;
+        }
+
+        .result {
+            position: relative;
+            top: 75px;
+            left: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h1>Maths</h1>
+        <input type="text" placeholder="Enter the number" id="num"><br>
+        <button onclick="answer()">Submit</button><br><br>
+        <h1 id="result" class="result"></h1>
+    </div>
+
+    <script src="./task 33.js"></script>
+</body>
+</html>

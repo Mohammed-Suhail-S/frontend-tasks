@@ -1,0 +1,70 @@
+.container {
+      width: auto;
+      height: 80%;
+      background-color: red;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+}
+
+.box1 {
+      height: 100px;
+      width: 100px;
+      background-color: lime;
+      border: 1px solid white; 
+}
+
+.box2 {
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border: 1px solid white;
+    align-self: center;
+}
+
+.box3 {
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border: 1px solid white;
+    align-self: flex-end;
+}
+
+.box4 {
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border: 1px solid white;
+    align-self: center;
+}
+
+.box5 {
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border: 1px solid white;
+}
+
+.box6 {
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border: 1px solid white;
+    align-self: center;
+}
+
+.box7 {
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border: 1px solid white;
+    align-self: flex-end;
+}
+
+.box8 {
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border: 1px solid white;
+    align-self: center;
+}

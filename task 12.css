@@ -1,0 +1,26 @@
+.form {
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: cursive;
+    height: 450px;
+    width: 450px;
+    border: 15px solid blue;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 30px;
+    margin-top: 125px;
+    background-image: url('./images/scene.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+a {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin-left: 125px;
+    border-radius: 10px;
+    text-decoration: none;
+}

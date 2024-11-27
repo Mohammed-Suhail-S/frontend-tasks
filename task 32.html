@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 32</title>
+    <style>
+        .div {
+            height: 400px;
+            width: 500px;
+            border: 3px solid green;
+            border-radius: 25px;
+            margin: 50px auto;
+        }
+
+        input {
+            position: relative;
+            top: 80px;
+            left: 40px;
+            font-size: 23px;
+            border-radius: 10px;
+        }
+
+        button {
+            position: relative;
+            top: 80px;
+            left: 40px;
+            font-size: 23px;
+            padding: 10px;
+            color: white;
+            background-color: red;
+            border-radius: 10px;
+        }
+
+        @font-face {
+            font-family: myFont;
+            src: url(./fonts/deadman.ttf);
+        }
+
+        h1 {
+            position: relative;
+            font-family: myFont;
+            font-weight: lighter;
+            top: 83px;
+            left: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <input type="text" placeholder="first name" id="fname"><br><br><br><br>
+        <input type="text" placeholder="last name" id="lname"><br><br><br><br>
+        <button onclick="names()">Submit</button><br>
+        <h1 id="result"></h1>
+    </div>
+
+    <script src="./task 32.js"></script>
+</body>
+</html>

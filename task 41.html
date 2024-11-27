@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 41</title>
+    <style>
+        .div {
+            height: 480px;
+            width: 660px;
+            border: 5px solid slateblue;
+            border-radius: 25px;
+            margin: 90px 0px 0px 460px;
+        }
+
+        @font-face {
+            font-family: myFont;
+            src: url(./fonts/Bethany\ Elingston.otf);
+        }
+
+        @font-face {
+            font-family: myFont2;
+            src: url(./fonts/OregonLdoBlack-PKlE.ttf);
+        }
+
+        h2 {
+            font-family: myFont;
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        select {
+            font-size: 20px;
+            margin: 25px 0px 0px 250px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        button {
+            padding: 12px;
+            margin: 40px 0px 0px 285px;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+            background-color: red;
+            border-radius: 10px; 
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 33px;
+            font-family: myFont2;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="div">
+        <h2>PHONE DETAILS</h2><br>
+        <select name="phone" id="phone">
+            <option value="samsung">Samsung</option>
+            <option value="iphone">iPhone</option>
+            <option value="google_pixel">Google Pixel</option>
+            <option value="oneplus">One Plus</option>
+            <option value="xiaomi">Xiaomi</option>
+        </select>
+        <button onclick="result()">Submit</button><br>
+        <h1 id="result"></h1> 
+    </div>
+
+    <script src="./task 41.js"></script>
+</body>
+</html>

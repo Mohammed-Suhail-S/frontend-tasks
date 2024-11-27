@@ -1,0 +1,20 @@
+.main {
+    background-color: black;
+    color: white;
+}
+
+.first {
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.second {
+    float: right;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 20px 20px 0px 0px;
+}
+
+a {
+    margin-right: 25px;
+}

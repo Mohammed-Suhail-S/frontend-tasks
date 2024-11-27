@@ -1,0 +1,38 @@
+.relative {
+      height: 200px;
+      width: 200px;
+      background-color: rgb(247, 201, 141);
+      position: relative;
+      left: 660px;
+      top: 240px;
+} 
+
+.absolute {
+      height: 60px;
+      width: 60px;
+      background-color: orange;
+      position: absolute;
+      left: 50px;
+      top: 45px;
+      z-index: 2;
+}
+
+.absolute2 {
+      height: 60px;
+      width: 60px;
+      background-color: white;
+      position: absolute;
+      left: 70px;
+      top: 65px;
+      z-index: 1;
+}
+
+.absolute3 {
+      height: 60px;
+      width: 60px;
+      background-color: green;
+      position: absolute;
+      left: 90px;
+      top: 85px;
+      z-index: 0;
+}

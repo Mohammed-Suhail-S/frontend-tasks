@@ -1,0 +1,97 @@
+.box {
+    height: 500px;
+    width: 600px;
+    border: 5px solid black;
+    border-radius: 30px;
+    margin: 30px 0px 0px 450px;
+}
+
+.round {
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    border-radius: 50%;
+    transform: translate(2px,2px);
+    animation-name: vattam;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+
+.round2 {
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(548px,398px);
+    animation-name: vattam2;
+    animation-duration: 12s;
+    animation-iteration-count: infinite; 
+}
+
+@keyframes vattam {
+    12.5% {
+        transform: translate(150px,450px);    
+    }
+
+    25% {
+        transform: translate(250px,0px);    
+    }
+
+    37.5% {
+        transform: translate(400px,230px);    
+    }
+
+    50% {
+        transform: translate(548px,0px);    
+    }
+
+    62.5% {
+        transform: translate(400px,230px);    
+    }
+
+    75% {
+        transform: translate(250px,0px);  
+    }
+
+    87.5% {
+        transform: translate(150px,450px);    
+    }
+
+    100% {
+        transform: translate(2px,2px);
+    }
+}
+
+@keyframes vattam2 {
+    12.5% {
+        transform: translate(400px,170px);    
+    }
+
+    25% {
+        transform: translate(280px,400px);    
+    }
+
+    37.5% {
+        transform: translate(140px,-50px);
+    }
+
+    50% {
+        transform: translate(0px,150px);
+    }
+
+    62.5% {
+        transform: translate(140px,-50px);
+    }
+
+    75% {
+        transform: translate(280px,400px);
+    }
+
+    87.5% {
+        transform: translate(400px,170px);
+    }
+
+    100% {
+        transform: translate(548px,398px);
+    }
+}

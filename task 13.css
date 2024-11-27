@@ -1,0 +1,141 @@
+h1,h2 {
+     color: white;
+     font-family: cursive;
+     font-size: 40px;
+     margin: 25px;
+}
+
+.flex {
+     display: flex;
+     justify-content: space-evenly;
+}
+
+.content {
+       background-color: blue;
+       color: white;
+       text-decoration: none;
+       padding: 20px;
+       border-radius: 50px;
+       font-size: 20px;
+       font-weight: bold;
+       font-family: cursive;
+}
+
+.content:hover {
+       background-color: lightgreen;
+       color: black;
+}
+
+.indian {
+     box-sizing: border-box;
+     display: inline-block;
+     margin: 60px 0px 0px 40px;
+}
+
+.title {
+     font-size: 30px;
+     font-family: cursive;
+     color: white;    
+}
+
+.title:hover {
+     color: yellow;
+     cursor: pointer;
+}
+
+.info {
+     float: left;
+     text-align: justify;
+     color: white;
+     font-size: 20px;
+     margin-left: 40px; 
+     width: 20%;
+}
+
+.garudan {
+     box-sizing: border-box;
+     display: inline-block;
+     margin: 0px 0px 0px 80px;
+}
+
+.title2 {
+     font-size: 30px;
+     font-family: cursive;
+     color: white;    
+}
+
+.title2:hover {
+     color: yellow;
+     cursor: pointer;
+}
+
+.info2 {
+     float: left;
+     text-align: justify;
+     color: white;
+     font-size: 20px;  
+     margin-left: 80px; 
+     width: 20%;
+}
+
+.pt {
+     box-sizing: border-box;
+     display: inline-block;
+     margin: 0px 0px 0px 80px;
+}
+
+.title3 {
+     font-size: 30px;
+     font-family: cursive;
+     color: white;    
+}
+
+.title3:hover {
+     color: yellow;
+     cursor: pointer;
+}
+
+.info3 {
+     float: left;
+     text-align: justify;
+     color: white;
+     font-size: 20px;
+     margin-left: 80px; 
+     width: 20%;
+ }
+
+ .star {
+     box-sizing: border-box;
+     display: inline-block;
+     margin: 0px 0px 0px 80px;  
+ }
+
+ .title4 {
+     font-size: 30px;
+     font-family: cursive;
+     color: white;    
+}
+
+.title4:hover {
+     color: yellow;
+     cursor: pointer;
+} 
+
+.info4 {
+    float: left;
+    text-align: justify;
+    color: white;
+    font-size: 20px;
+    margin-left: 80px; 
+    width: 20%;
+}
+
+.foot {
+     font-size: 23px;
+     font-family: 'Times New Roman', Times, serif;
+     text-align: center;
+     background-color: orangered;
+     color: black;
+     margin: 400px 0px 0px 0px;
+     padding: 50px 0px 50px 0px;
+}

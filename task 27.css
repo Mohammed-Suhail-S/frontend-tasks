@@ -1,0 +1,72 @@
+body {
+    overflow: auto;
+}
+
+.header {
+    height: 70px;
+    width: 100%;
+    background-color: blue;
+}
+
+.img {
+    height: 60px;
+    width: 60px;
+    margin: 5px 10px;
+    float: right;
+    border-radius: 50%;
+}
+
+.profile {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+    margin: 24px 2px 0px 0px;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 90px;
+}
+
+.lorem {
+    color: black;
+    text-align: justify;
+    font-weight: lighter;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 90px;
+}
+
+.main {
+    height: 700px;
+    width: 70px;
+    margin: -680px 0px 0px 0px;
+    background-color: gainsboro;
+    display: flex;
+    flex-direction: column;
+    transition: 0.5s;
+}
+
+.emoji {
+    height: 70px;
+    width: 70px;
+}
+
+.main:hover {
+    width: 200px;
+    position: absolute;
+}
+
+.star {
+    height: 70px;
+    width: 70px;
+}
+
+.cont {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 90px;
+    margin-top: -50px;
+    overflow: hidden;
+}

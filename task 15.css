@@ -1,0 +1,23 @@
+.para {
+    width: 30%;
+    float: left;
+    background-color: yellow;
+    text-align: justify;
+    padding: 25px;
+}
+
+.para1 {
+    width: 30%;
+    float: left;
+    background-color: orange;
+    text-align: justify;
+    padding: 25px;
+}
+
+.para2 {
+    width: 30%;
+    float: left;
+    background-color: red;
+    text-align: justify;
+    padding: 25px;
+}

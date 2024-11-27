@@ -1,0 +1,73 @@
+body {
+    background-image: url(./images/dj.jpg);
+    background-repeat: no-repeat;
+    background-size: 1620px 900px;
+    overflow: hidden; 
+}
+
+h1 {
+    color: red;
+    background-color: yellow;
+    text-align: center;
+    padding: 20px;
+    font-family: cursive;
+    font-size: 50px;
+    display: inline;
+    margin-left: 550px;
+    animation-name: title;
+    animation-duration: 1s; 
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite; 
+} 
+
+.shin {
+    height: 300px;
+    width: 300px;
+    background-image: url(./images/shinchan.gif);
+    background-repeat: no-repeat;
+    transform: translate(400px,350px);
+    animation-name: shinchan;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
+}
+
+.speak {
+    height: 500px;
+    width: 500px;
+    background-image: url(./images/speaker.gif); 
+    background-repeat: no-repeat;
+    background-size: 420px;
+    transform: translate(-20px,0px); 
+}
+
+.speak2 {
+    height: 500px;
+    width: 500px;
+    background-image: url(./images/speaker.gif);
+    background-repeat: no-repeat;
+    background-size: 420px;
+    transform: translate(1100px,-500px) rotateY(-180deg);
+} 
+
+@keyframes shinchan {
+    50% {
+           transform: translate(950px,350px);
+    }
+
+    100% {
+            transform: translate(400px,350px);
+    }
+} 
+
+@keyframes title {
+    50% {
+           color: yellow;
+           background-color: red;
+    }
+
+    100% {
+           color: red;
+           background-color: yellow;
+    }
+} 

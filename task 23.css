@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(135, 135, 190);
+}
+
+.container {
+    background-color: black;
+    padding: 5px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.home {
+    color: lime;
+    font-size: 30px;
+}
+
+.home:hover {
+    text-decoration: underline red;
+}

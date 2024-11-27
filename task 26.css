@@ -1,0 +1,52 @@
+body {
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.line {
+    height: 5px;
+    width: 100%;
+    background-color: black;
+    margin-top: 320px;
+}
+
+.man {
+    position: absolute;
+    bottom: 130px;
+    left: -270px;
+}
+
+@media screen and (min-width: 1200px) 
+{
+    .line {
+             margin-top: 320px;
+    }
+}
+
+@media  screen and (min-width: 601px) and (max-width: 1199px) 
+{
+    .line {
+             margin-top: 320px;
+    }
+}
+
+@media screen and (max-width: 600px) 
+{
+    .line {
+             margin-top: 320px;
+    }
+
+     .man {
+             animation: man 10s linear 0s infinite;
+    }
+} 
+
+@keyframes man {
+    100% {
+        margin-left: 100%;
+    }
+} 
